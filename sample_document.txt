@@ -1,0 +1,7 @@
+Retrieval-Augmented Generation (RAG) is a technique that improves language model responses by retrieving relevant external information before generating an answer. Instead of relying only on the model’s internal memory, RAG uses a retrieval step to find useful document chunks.
+
+Document chunking is important because large documents cannot be processed efficiently as a single block. By splitting documents into smaller overlapping chunks, retrieval becomes more precise and relevant. Overlapping chunks help preserve context across boundaries.
+
+A knowledge pyramid can organize information into multiple layers. The first layer stores raw text. The second layer stores chunk summaries. The third layer stores a category or theme label. The fourth layer stores distilled knowledge such as keywords or embeddings.
+
+This hierarchical structure helps systems retrieve information at different abstraction levels. Sometimes the best answer is found in the raw text. Sometimes a summary or keyword layer provides a better match for the user query.
